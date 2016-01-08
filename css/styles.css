@@ -20,6 +20,10 @@ h1 {
 }
 
 body {
-  background-color: ;
+  background-color: #F5FFFA;
+}
 
+footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
