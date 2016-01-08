@@ -10,34 +10,63 @@
   </head>
   <body>
 
-<!--  Carousel  -->
-    <div id="myCarouse" class="carousel slide jumbotron">
-      <div class="container">
-        <div class="carousel-inner">
-          <div class="item active">
-            <h1>Simon Temple</h1>
-            <p class="lead">I'm an aspiring web developer from Portland Oregon. Here are the github pages of some of my work so far. There will be more to come so keep checking back.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-<!--  End Carousel  -->
-
-<!--  Navigation Buttons  -->
+    <!--  Navbar  -->
+  <div class="navbar navbar-inverse">
     <div class="container">
-      <header class="page-header">
-        <ul class="nav nav-pills pull-right">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand text-muted" href="#">Portfolio</a>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="#">Home</a></li>
           <li class=""><a href="about.html">About Me</a></li>
           <li class=""><a href="mailto:simonctemple@live.com">Contact</a></li>
         </ul>
-        <h3>Portfolio</h3>
-      </header>
-<!--  End Navigation Buttons  -->
+      </div>
+    </div>
+  </div>
 
+    <!--  end Navbar  -->
+<!--  Carousel  -->
 
+  <div id="carousel1" class="carousel slide jumbotron">
+    <div class="container">
+      <div class="carousel-inner">
+        <div class="item active">
+          <h1 id="jumbotron_text">Simon Temple</h1>
+          <p class="lead" id="jumbotron_text">I'm an aspiring web developer from Portland Oregon. Here are the github pages of some of my work so far. There will be more to come so keep checking back.</p>
+          <p class=btn-group>
+            <a class="btn btn-default btn-lg" href="#">Download app</a>
+            <a class="btn btn-default btn-lg" href="#">Text me</a>
+          </p>
+        </div>
+        <div class="item">
+          <h1>Learn how to build it for i0S</h1>
+          <p class"lead">We'll teach you how to build it from scratch!</p>
+          <p>
+            <a class="btn btn-success btn-lg" href="#">Get started today!</a>
+          </p>
+        </div>
+        <div class="item">
+          <h1>Learn how to build it for i0S</h1>
+          <p class"lead">We'll teach you how to build it from scratch!</p>
+          <p>
+            <a class="btn btn-success btn-lg" href="#">Get started today!</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--  End Carousel  -->
+
+<div class="container">
 <!--  Content  -->
-      <div class="row">
+      <div class="row" id="myrows">
         <div class="col-sm-4">
           <h2><a href="https://github.com/stemple87/portfolio_project">portfolio_project</a></h2>
           <p>This is a portfolio of all of my class work so far.</p>
@@ -55,7 +84,7 @@
     </div>
 
 
-      <div class="row">
+      <div class="row" id="myrows">
         <div class="col-sm-4">
             <h2><a href="https://github.com/stemple87/wizard-design">wizard-design</a></h2>
             <p>This was a website where we practiced making a website for a interior design and restoration company. We used columns along with before during and after images to document a restoration.</p>
@@ -72,7 +101,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" id="myrows">
         <div class="col-sm-4">
           <h2><a href="https://github.com/stemple87/boring-lecture">boring-lecture</a></h2>
           <p>This is a website that was created to test the div and span elements.</p>
@@ -89,7 +118,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" id="myrows">
         <div class="col-sm-4">
           <h2><a href="https://github.com/stemple87/favorite_cat">favorite_cat</a></h2>
           <p>This is the first exercise we did that involved using css styling and images in the same project.</p>
@@ -106,7 +135,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" id="myrows">
         <div class="col-sm-4">
           <h2><a href="https://github.com/stemple87/dog-blog">dog-blog</a></h2>
           <p>This is an exercise from the second day of class. This practice website is a blog that a dog would write.</p>
@@ -123,7 +152,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" id="myrows">
         <div class="col-sm-4">
           <h2><a href="https://github.com/stemple87/epicodusfirstday">epicodusfirstday</a></h2>
           <p>This was from the first day of class. It was a test to push a readme file to Github.com.</p>
@@ -133,7 +162,7 @@
 
 
       <footer>
-      <p>&copy; Simon Temple</p>
+      <p>&copy; Simon Temple 2016</p>
       </footer>
 
     </div>

@@ -8,4 +8,6 @@ index.html needs to be click for the project to run.
 
 https://github.com/stemple87/portfolio_project
 
+&copy; Simon Temple 2016
+
 
