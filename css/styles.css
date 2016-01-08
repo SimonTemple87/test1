@@ -10,7 +10,7 @@ h1 {
 }
 
 .jumbotron {
-    margin-bottom: 0px;
+    margin-bottom: 50px;
     background-image: url(../img/jumbotronbackground.jpg);
     background-position: 0% 25%;
     background-size: cover;
@@ -21,9 +21,16 @@ h1 {
 
 body {
   background-color: #F5FFFA;
+  background-image: url(../img/bg.jpg);
+  padding-top: 50px;
 }
 
 footer {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
