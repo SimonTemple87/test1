@@ -55,3 +55,11 @@ a {
 .img-simon {
     width: 50%;
 }
+
+.floatul {
+  max-width: 50%%;
+}
+.floatol {
+  max-width: 50%;
+  float: right;
+}
